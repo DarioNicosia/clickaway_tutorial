@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>How to detect a click events outside an element in vue with clickaway component</h1>
+    <img src="../assets/teacher.svg" alt=" teacher">
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
+  
 }
 </script>
+
+<style lang="css" scoped>
+h1{
+  max-width: 500px;
+  margin:0 auto;
+}
+img{
+  max-width: 600px;
+  margin-top:30px;
+}
+</style>
